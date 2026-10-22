@@ -1,0 +1,11 @@
+asyncmap 0
+auth
+lock
+hide-password
+mru 1358
+-ac
+-pc
+mtu 1358
+lcp-echo-interval 30
+lcp-echo-failure 4
+noipx
