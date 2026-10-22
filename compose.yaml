@@ -1,0 +1,16 @@
+---
+name: pptpd
+
+services:
+  pptpd:
+    image: typhoonchik/pptpd
+    container_name: pptpd
+    hostname: pptpd
+    network_mode: host
+    privileged: true
+    volumes:
+      - /etc/pptp/pptpd.conf:/etc/pptpd.conf
+      - /etc/pptp/options:/etc/ppp/options
+      - /etc/pptp/options.pptp:/etc/ppp/options.pptp
+      - /etc/pptp/chap-secrets:/etc/ppp/chap-secrets
+
