@@ -89,4 +89,4 @@ The container enables IPv4 forwarding and installs its nftables table on the hos
 
 ## License
 
-MIT
+See [`LICENSE`](LICENSE).
